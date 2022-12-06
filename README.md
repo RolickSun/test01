@@ -17,7 +17,7 @@ This is a test for README.md
 ` git commit -m 'first commit'`
 提交
 
-` git log ` 查看commit历史
+` git log ` 查看版本历史
 
 
 ## 分支与合并
@@ -48,3 +48,17 @@ This is a test for README.md
 ### 合并
 ` git merge prc/dev-wupx `
 将其他分支合并到当前所处的分支
+
+
+## 远程仓库
+` git clone `拷贝远程仓库内容
+
+` git remote -v` 查看本地仓库与哪些远程仓库有联系
+
+` git push `更新到远程仓库
+
+` git fetch `将远程仓库更新到本地版本库
+
+` git diff origin/main` 查看本地仓库与远程仓库的区别
+
+` git pull` 将远程仓库整合到工作区
